@@ -2,16 +2,16 @@
   <img src="./assets/banner_iadesk.png" alt="iaDesk Banner">
 </p>
 
-<h1 align="center">iaDesk</h1>
+<h1 align="center">IaDesk</h1>
 
 <p align="center">
   Intelligent AI Support Desk Platform
 </p>
 
-# iaDesk 🧠💬  
+# IaDesk 🧠💬  
 Intelligent AI Support Desk System
 
-O iaDesk é um sistema de suporte técnico inteligente baseado em IA, projetado para simular e automatizar um ambiente real de Service Desk corporativo.
+O IaDesk é um sistema de suporte técnico inteligente baseado em IA, projetado para simular e automatizar um ambiente real de Service Desk corporativo.
 
 O projeto evolui de um simples chat com IA para uma plataforma completa de atendimento técnico, com persistência de dados, memória contextual e arquitetura multiagente.
 
@@ -19,7 +19,7 @@ O projeto evolui de um simples chat com IA para uma plataforma completa de atend
 
 ## 🚀 Visão do Projeto
 
-O objetivo do iaDesk é criar um sistema capaz de:
+O objetivo do IaDesk é criar um sistema capaz de:
 
 - Interpretar chamados técnicos em linguagem natural
 - Analisar problemas com IA (texto e imagem)
@@ -54,7 +54,7 @@ Responsável por:
 - Estrutura de chamados (tickets)
 
 =======
-# iaDesk 🧠💬  
+# IaDesk 🧠💬  
 Intelligent AI Support Desk System
 
 O iaDesk é um sistema de suporte técnico inteligente baseado em IA, projetado para simular e automatizar um ambiente real de Service Desk corporativo.
@@ -65,7 +65,7 @@ O projeto evolui de um simples chat com IA para uma plataforma completa de atend
 
 ## 🚀 Visão do Projeto
 
-O objetivo do iaDesk é criar um sistema capaz de:
+O objetivo do IaDesk é criar um sistema capaz de:
 
 - Interpretar chamados técnicos em linguagem natural
 - Analisar problemas com IA (texto e imagem)
@@ -166,7 +166,7 @@ Responsável por:
 
 ## 🎯 Objetivo final
 
-Transformar o iaDesk em uma plataforma completa de suporte técnico inteligente, capaz de simular um ambiente real de TI corporativo com IA atuando como analista de suporte.
+Transformar o IaDesk em uma plataforma completa de suporte técnico inteligente, capaz de simular um ambiente real de TI corporativo com IA atuando como analista de suporte.
 
 ---
 
