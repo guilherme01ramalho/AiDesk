@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
   <img src="./assets/banner_iadesk.png" alt="iaDesk Banner">
 </p>
