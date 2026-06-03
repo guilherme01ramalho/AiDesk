@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="./assets/banner_iadesk.png" alt="iaDesk Banner">
+</p>
 
-## Getting Started
+<h1 align="center">iaDesk</h1>
 
-First, run the development server:
+<p align="center">
+  Intelligent AI Support Desk Platform
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# iaDesk 🧠💬  
+Intelligent AI Support Desk System
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O iaDesk é um sistema de suporte técnico inteligente baseado em IA, projetado para simular e automatizar um ambiente real de Service Desk corporativo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O projeto evolui de um simples chat com IA para uma plataforma completa de atendimento técnico, com persistência de dados, memória contextual e arquitetura multiagente.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Visão do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+O objetivo do iaDesk é criar um sistema capaz de:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Interpretar chamados técnicos em linguagem natural
+- Analisar problemas com IA (texto e imagem)
+- Manter histórico completo de conversas
+- Automatizar triagem de tickets
+- Direcionar problemas para agentes especializados
+- Simular um ambiente real de suporte corporativo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Arquitetura do Sistema
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O sistema é dividido em camadas inteligentes:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🎯 Orquestrador (ATLAS)
+Responsável por:
+- Interpretar o contexto do usuário
+- Classificar o tipo de problema
+- Roteamento para agentes especializados
+
+### 🧩 Agentes Especializados (futuro)
+- NETRA → Redes, VPN, conectividade
+- SYSA → Windows, sistemas operacionais
+- HELIX → documentação e chamados
+- VISION → análise de imagens e erros
+- CORE → análise geral de suporte
+
+### 🗄️ Camada de Dados
+- Supabase (PostgreSQL)
+- Persistência de conversas
+- Histórico de mensagens
+- Estrutura de chamados (tickets)
+
+### 💬 Camada de Interface
+- Chat em tempo real
+- Upload de imagens
+- Histórico persistente
+- Interface moderna (Next.js)
+
+---
+
+## ⚙️ Stack Tecnológica
+
+- Next.js (App Router)
+- TypeScript
+- Supabase (PostgreSQL)
+- Google Gemini API (`@google/genai`)
+- React Hooks
+- API Routes
+
+---
+
+## ✨ Funcionalidades atuais
+
+- 💬 Chat com IA funcional
+- 🧠 Integração com Gemini
+- 🗂️ Criação automática de conversas
+- 💾 Persistência de mensagens no Supabase
+- 📎 Upload e análise de imagens
+- 🔄 Histórico de conversa contínuo
+- ⚙️ Estrutura preparada para multiagentes
+
+---
+
+## 🧭 Roadmap de evolução
+
+### Fase 1 — Base do sistema
+- Chat com IA funcional
+- Interface inicial em Next.js
+
+### Fase 2 — Persistência
+- Integração com Supabase
+- Histórico de conversas
+- Criação automática de tickets
+
+### Fase 3 — Inteligência contextual
+- Memória de conversa
+- Contexto contínuo para IA
+- Melhor interpretação de problemas
+
+### Fase 4 — Multiagentes 🤖
+- ATLAS (orquestrador principal)
+- Agentes especializados por domínio
+- Comunicação entre agentes
+
+### Fase 5 — Dashboard
+- Painel de chamados
+- Status de tickets
+- Métricas de atendimento
+
+### Fase 6 — Sistema corporativo completo
+- Autenticação de usuários
+- SLA de atendimento
+- Simulação de service desk real
+
+---
+
+## 🎯 Objetivo final
+
+Transformar o iaDesk em uma plataforma completa de suporte técnico inteligente, capaz de simular um ambiente real de TI corporativo com IA atuando como analista de suporte.
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido como estudo avançado de:
+
+- Inteligência Artificial aplicada
+- Arquitetura de sistemas distribuídos
+- Automação de suporte técnico
+- Multiagentes e orquestração de IA
