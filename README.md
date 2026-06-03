@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="./assets/banner_iadesk.png" alt="iaDesk Banner">
 </p>
@@ -53,6 +54,53 @@ Responsável por:
 - Histórico de mensagens
 - Estrutura de chamados (tickets)
 
+=======
+# iaDesk 🧠💬  
+Intelligent AI Support Desk System
+
+O iaDesk é um sistema de suporte técnico inteligente baseado em IA, projetado para simular e automatizar um ambiente real de Service Desk corporativo.
+
+O projeto evolui de um simples chat com IA para uma plataforma completa de atendimento técnico, com persistência de dados, memória contextual e arquitetura multiagente.
+
+---
+
+## 🚀 Visão do Projeto
+
+O objetivo do iaDesk é criar um sistema capaz de:
+
+- Interpretar chamados técnicos em linguagem natural
+- Analisar problemas com IA (texto e imagem)
+- Manter histórico completo de conversas
+- Automatizar triagem de tickets
+- Direcionar problemas para agentes especializados
+- Simular um ambiente real de suporte corporativo
+
+---
+
+## 🧠 Arquitetura do Sistema
+
+O sistema é dividido em camadas inteligentes:
+
+### 🎯 Orquestrador (ATLAS)
+Responsável por:
+- Interpretar o contexto do usuário
+- Classificar o tipo de problema
+- Roteamento para agentes especializados
+
+### 🧩 Agentes Especializados (futuro)
+- NETRA → Redes, VPN, conectividade
+- SYSA → Windows, sistemas operacionais
+- HELIX → documentação e chamados
+- VISION → análise de imagens e erros
+- CORE → análise geral de suporte
+
+### 🗄️ Camada de Dados
+- Supabase (PostgreSQL)
+- Persistência de conversas
+- Histórico de mensagens
+- Estrutura de chamados (tickets)
+
+>>>>>>> 1f8d3c7b637249fa3438c8ee525aabbf8297ed44
 ### 💬 Camada de Interface
 - Chat em tempo real
 - Upload de imagens
